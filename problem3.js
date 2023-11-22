@@ -4,7 +4,7 @@
 function problem3(inventory) {
   const carModel = [];
   for (let i = 0; i < inventory.length; i++) {
-    carModel.push(inventory[i].car_model);
+    carModel.push(inventory[i].car_model.toLowerCase());
   }
   return carModel.sort();
 }
