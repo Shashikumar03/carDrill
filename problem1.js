@@ -9,5 +9,4 @@ function problem1(inventory, id) {
     }
   }
 }
-
 module.exports = { problem1 };
